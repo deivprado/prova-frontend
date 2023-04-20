@@ -1,0 +1,52 @@
+.grid-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.descricao-footer {
+    color: var(--cinza-text);
+    margin-top: 7rem;
+    position: relative;
+}
+
+.contato-footer{
+    margin-top: 7rem;
+}
+
+.contato-footer p {
+    color: var(--white);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.direitos-footer{
+    color: var(--cinza-text);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.descricao-footer::after{
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    width: 90px;
+    height: 15px;
+    background-color: var(--verde-neon);
+    transform: rotate(-45deg);
+    top: -125px;
+    left: -8px;
+}
+
+.descricao-footer::before{
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    width: 90px;
+    height: 15px;
+    background-color: var(--verde-contra);
+    transform: rotate(-45deg);
+    top: -125px;
+    left: 10px;
+}
+

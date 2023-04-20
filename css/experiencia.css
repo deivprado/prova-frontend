@@ -1,0 +1,77 @@
+.grid-experiencia{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    gap: 9.5rem;
+    margin-bottom: 3rem;
+}
+
+.titulo-experiencia h1{
+    font-size: 100px;
+    color: var(--cinza-text);
+    text-transform: uppercase;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.grid-detalhamento{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.grid-detalhamento p{
+    font-size: 15px;
+}
+
+.grid-detalhamento-pi ul{
+    display: flex;
+    gap: 1.5rem;
+    padding-inline-start: 0;
+}
+
+.grid-detalhamento-pi ul li{
+    background-color: var(--white);
+    padding: 0.4rem;
+}
+
+.detalhamento-experiencia p{
+    margin-bottom: 2rem;
+}
+
+.grid-relative{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    background-color: var(--bc-cinza);
+    padding: 0.5rem;
+    position: relative;
+}
+
+.ano{
+    position: absolute;
+    top: 0;
+    left: -60px;
+}
+
+.ano::after{
+    content: " ";
+    position: absolute;
+    width: 3px;
+    height: 20px;
+    background-color: var(--verde-neon);
+    left: 50px;
+}
+
+.grid-relative h3{
+    margin-bottom: 1rem;
+}
+
+.grid-relative p{
+    margin-bottom: 0;
+}
+
+.grid-detalhamento-projeto{
+    position: relative;
+}
+
+

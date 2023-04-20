@@ -1,0 +1,12 @@
+.space{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+
+.ul-menu{
+    display: flex;
+    gap: 3rem;
+}
