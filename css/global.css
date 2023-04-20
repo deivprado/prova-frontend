@@ -1,0 +1,160 @@
+:root {
+    --white: #fff;
+    --bc-black: rgba(0, 0, 0, 0.9);
+    --black: #000;
+    --verde-neon: #39ff14;
+    --verde-contra: #ccff33;
+    --cinza-text: #c0c0c0;
+    --bc-cinza: #dcdcdc;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.bc-cinza {
+    background: var(--bc-cinza);
+}
+
+.bc-white {
+    background: var(--white)
+}
+
+.bc-black {
+    background: var(--bc-black);
+}
+
+.bc-footer {
+    background: var(--black);
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+ul {
+    list-style: none;
+}
+
+@media (max-width: 800px) {
+    .conteiner {
+        padding: 0 3rem;
+    }
+
+    /* ---PARTE DO MENU--- */
+
+    #menubar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    /* ---PARTE DO MAIN--- */
+
+
+    .conteiner .grid-main {
+        gap: 5rem;
+    }
+
+    .grid-main .titulo h1 {
+        font-size: 30px;
+    }
+
+    .titulo::before {
+        display: none;
+    }
+
+    .titulo::after {
+        display: none;
+    }
+    .titulo p{
+        position: relative;
+    }
+    .titulo p::before {
+        content: " ";
+        background: rgb(57, 255, 20);
+        background: linear-gradient(90deg, rgba(57, 255, 20, 1) 0%, rgba(204, 255, 51, 1) 100%);
+        width: 30px;
+        height: 10px;
+        position: absolute;
+        bottom: 185px;
+        left: 0;
+    }
+
+    /* ---PARDE DE EXPERIENCIA--- */
+
+    .conteiner .grid-experiencia {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .grid-experiencia .titulo-experiencia h1 {
+        color: #000;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .grid-detalhamento-projeto .ano {
+        position: relative;
+        top: 5px;
+        left: 0;
+    }
+
+    /* ---PARTE DE FORMACÃO--- */
+
+    .conteiner .grid-form {
+        grid-template-columns: 1fr;
+        gap: 3px;
+    }
+
+    .grid-form .titulo-form {
+        color: var(--white);
+        font-size: 30px;
+        text-transform: capitalize;
+        margin-top: 30px;
+    }
+
+    .grid-form .detalhe-form {
+        margin-top: 10px;
+    }
+
+    .detalhe-form .text-formacao {
+        display: block;
+        width: 50%;
+    }
+
+    .book {
+        position: relative;
+    }
+
+    .idioma img {
+        position: relative;
+    }
+
+    /* ---PARTE FOOTER--- */
+
+    .grid-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .conteiner .direitos-footer {
+        display: none;
+    }
+
+
+}

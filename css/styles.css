@@ -1,58 +1,7 @@
+@import "./global.css";
 @import "./header.css";
 @import "./main.css";
 @import "./experiencia.css";
 @import "./formacao.css";
 @import "./footer.css";
-
-
-:root {
-    --white: #fff;
-    --bc-black: rgba(0, 0, 0, 0.9);
-    --black: #000;
-    --verde-neon: #39ff14;
-    --verde-contra: #ccff33;
-    --cinza-text: #c0c0c0;
-    --bc-cinza: #dcdcdc;
-}
-
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.conteiner{
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.bc-cinza{
-    background: var(--bc-cinza);
-}
-
-.bc-white {
-    background: var(--white)
-}
-
-.bc-black{
-    background: var(--bc-black);
-}
-
-.bc-footer{
-    background: var(--black);
-}
-
-p{
-    font-size: 20px;
-}
-
-a{
-    text-decoration: none;
-    color: var(--black);
-}
-
-ul{
-    list-style: none;
-}
 

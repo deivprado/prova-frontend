@@ -53,13 +53,13 @@
     left: -60px;
 }
 
-.ano::after{
+.grid-detalhamento-projeto::before{
     content: " ";
     position: absolute;
     width: 3px;
     height: 20px;
     background-color: var(--verde-neon);
-    left: 50px;
+    left: -10px;
 }
 
 .grid-relative h3{

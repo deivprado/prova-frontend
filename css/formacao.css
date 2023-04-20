@@ -77,44 +77,35 @@
 
 .cursos-intensivos p,
 .idioma-titulo {
-    margin-bottom: 1.5rem;
     text-transform: uppercase;
     font-size: 1rem;
 }
 
-.wrapper{
-    position: relative;
-}
-.book{
-    position: absolute;
-    top: -8px;
-    left: -40px;
-    z-index: 2;
+.cursos-intensivos{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+
 }
 
-.cursos{
+.udemy{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2rem;
 }
 
+.flex-idioma{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
 .cursos p {
     margin-bottom: 0.8rem;
 }
 
 .idiomas-grau{
     margin-bottom: 3rem;
-}
-
-.idioma{
-    position: relative;
-}
-
-.idioma img{
-    position: absolute;
-    top: -8px;
-    left: -40px;
-    z-index: 2;
 }
 
 

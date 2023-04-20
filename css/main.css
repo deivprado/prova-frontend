@@ -38,7 +38,6 @@
     top: -230px;
 }
 
-
 .titulo{
     position: relative;
 }
@@ -65,7 +64,7 @@
     transform: rotate(-45deg);
     left: -15px;
     top: 15px;
-}
+} 
 
 .titulo h1{
     font-size: 3rem;
